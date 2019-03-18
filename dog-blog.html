@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Doggy Bloggy</title>
   </head>
   <body>
-    <h1>Check Out My Doggy</h1>
+    <h1>Check Out My Doggy, <em>Dog</em></h1>
     <p>His name is Rascal and he is six (human) years old! He is the <strong>sweetest</strong> boy you will ever meet.</p>
     <img src="https://i.pinimg.com/originals/85/37/a8/8537a8e7d46012facba5f8a619374af5.jpg" alt="My Doggy"/>
 
@@ -22,7 +26,15 @@
       <li>Getting his tummy rubbed</li>
     </ul>
 
-    <p> <a href="https://www.pinterest.com/pin/181481059954158567/"> Click here for more pictures of Rascal!</a></p>
+    <h2>What should Rascal do next???</h2>
+    <div class="form-group">
+        <label>New Activity</label>
+        <input type="text" id="new-goal">
+        <button class="btn" type="button" id="goal-button">Add Activity</button>
+        <ul id="goal-list"></ul>
+    </div>
+    
+    <p id="recipelink"><a href="cookie-recipe.html"> Click here for Rascal's favorite <em>cookie</em> recipe!</a></p>
 
   </body>
 </html>
