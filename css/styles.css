@@ -1,0 +1,20 @@
+p {
+  color: purple;
+
+}
+li {
+  color: purple;
+
+}
+body {
+  margin-left: 10px;
+  background-color: gold;
+}
+img {
+  border: solid;
+  border-color: red blue green purple;
+  width: 30%;
+}
+#recipelink {
+  font-size: 150%
+}
